@@ -1,9 +1,7 @@
-The utility receives configuration data from the FaceFish rootkit, which is encrypted with the <code>[Blowfish](https://en.wikipedia.org/wiki/Blowfish_(cipher))
-</code>algorithm.
+The utility receives configuration data from the FaceFish rootkit, which is encrypted with the [Blowfish](https://en.wikipedia.org/wiki/Blowfish_(cipher)) algorithm.
 
-The FaceFish rootkit is very popular in the wild. A detailed analysis of the rootkit in the following material<code>[Analysis report of the Facefish rootkit](https://blog.netlab.360.com/ssh_stealer_facefish_en/)
-</code>and<code>[Linux Servers Hijacked to Implant SSH Backdoor](https://blogs.juniper.net/en-us/threat-research/linux-servers-hijacked-to-implant-ssh-backdoor)
-</code>.
+The FaceFish rootkit is very popular in the wild. A detailed analysis of the rootkit in the following material [Analysis report of the Facefish rootkit](https://blog.netlab.360.com/ssh_stealer_facefish_en/)
+and [Linux Servers Hijacked to Implant SSH Backdoor](https://blogs.juniper.net/en-us/threat-research/linux-servers-hijacked-to-implant-ssh-backdoor).
 
 Examples:
 ```
@@ -19,7 +17,7 @@ FaceFish Dropper: C:\samples\ssh1200, 118128, 9d32e96874eec67975e3b1bd6f5a2dd550
 00000060  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
 00000070  00 00 00 00 00 00 00 00                           |........|
 
-FaceFish Rootkit: C:\samples\libs.so, 166160, 05ba963fa7a52c48f3a9b3e9de702b735ef5e30f2931a1f8d7342410ccada105
+FaceFish Rootkit: C:\samples\libs.so__, 166160, 05ba963fa7a52c48f3a9b3e9de702b735ef5e30f2931a1f8d7342410ccada105
 00000000  c3 fe dd 71 b0 04 00 00  20 00 00 00 39 05 00 00  |...q.... ...9...|
 00000010  00 00 00 00 00 00 00 00  68 74 74 70 3a 2f 2f 31  |........http://1|
 00000020  34 36 2e 31 39 30 2e 32  33 2e 38 36 2f 69 6e 64  |46.190.23.86/ind|
